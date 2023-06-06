@@ -1,4 +1,4 @@
-/* const textInput = document.querySelector('#name-input')
+const textInput = document.querySelector('#name-input')
 const output = document.querySelector('#name-output')
 
 textInput.addEventListener('input', event => {
@@ -7,11 +7,5 @@ textInput.addEventListener('input', event => {
 	if (event.target.value === '') {
 		output.textContent = 'Anonymous'
 	}
-}) */
+}) 
 
-const textInput = document.querySelector('#name-input')
-const output = document.querySelector('#name-output')
-
-textInput.addEventListener('input', event => {
-    
-})
