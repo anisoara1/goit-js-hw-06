@@ -7,5 +7,4 @@ textInput.addEventListener('input', event => {
 	if (event.target.value === '') {
 		output.textContent = 'Anonymous'
 	}
-}) 
-
+})
